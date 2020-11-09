@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to0te>
+        <title>Projeto Prático - Bootstrap</title>
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    </head>
+
+    <body style=" background: #54478c;">
+            
+
+        <nav class="navbar navbar-expand-sm navebar-dark bg-white ">
+
+             <a  class="navbar-brand" href="">Game Zone</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapseNavbar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-info" href="#">Jogos</a>
+                    </li>
+
+                    <li class="nav-item"> 
+                        <a class="nav-link active text-info" href="#">Novidades World Game</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-info" href="#">Séries Games </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-info" href="#">MarketPlace</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-info" href="#">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <img src="/img/gamezone.png"class="rounded float-left" width="150" alt="Logo Game Zone">
+
+        <h1 class="text-white text-center">Faça o seu cadastro e receba com exclusividade as novidades do mundo Game.</h1>
+
+
+
+
+        <form action="" class="container">
+
+            <label for="fname" class="text-white">Nome: </label><br>
+            <input type="text" id="fname" name="fname" class="form-control border border-primary"><br>
+            <label for="Iname" class="text-white">Sobrenome</label><br>
+            <input type="text" id="Iname" name="Iname" class="form-control border border-primary"><br>
+            <label for="Iname" class="text-white">Informe o seu CPF: </label><br>
+            <input type="text" id="cpf" maxlength="11" class="form-control border border-primary"><br><br>
+
+            <div>
+                <span>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="masculino" class="text-white">Masculino</label>
+                </span>            
+            
+            
+                <span>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="feminino" class="text-white">Feminino</label>
+                </span>
+            
+
+                <span>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="outros" class="text-white">Prefiro não comentar</label>
+                </span><br><br>
+
+            </div>
+
+            <div>
+                <label for="estados" class="text-white">Escolha o Estado: </label>
+                <select id="estados" name="estados" class="bg-dark text-white">
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="pe">Pernambuco</option>
+                </select>
+            </div><br>
+
+            <div>
+              
+                <input type="checkbox" id="contatoEmail" name="contatoEmail" value="sempreContato">
+                <label for="contatoEmail" class="text-white">Aceito receber e-mails sobre jogos</label><br>
+                <input type="checkbox" id="contatoEmailovosProdutos" name="contatoEmailNovosProdutos" value="EmailNovosProdutos">
+                <label for="contatoEmail" class="text-white">Aceito receber e-mails de novidades sobre Séries Games</label><br>
+                
+                <button type="submit" value="submit" class="btn btn-success mb-2 mr-sm-2">Enviar</button>
+                <button type="reset" value="reset" class="btn btn-danger mb-2 mr-sm-2">Cancelar</button>
+
+            </div>
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="/bootstrap/js/bootstrap.js"></script>
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
